@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 export default class Tweet extends Component {
   render() {
+    
     let {avatar_url, handle, content, username} = this.props.data
     return (
       <li className="tweet">
